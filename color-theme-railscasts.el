@@ -15,7 +15,7 @@
   (interactive)
   (color-theme-install
    '(color-theme-railscasts
-     ((background-color . "#232323")
+     ((background-color . "#111")
       (background-mode . dark)
       (cursor-color . "#5A647E")
       (foreground-color . "#E6E1DC"))
@@ -24,7 +24,7 @@
      (bold-italic ((t (:italic t :bold t))))
      (fringe ((t (:background "#232323"))))
      (font-lock-builtin-face ((t (:foreground "#D0D0FF"))))
-     (font-lock-comment-face ((t (:foreground "#BC9458" :italic t))))
+     (font-lock-comment-face ((t (:foreground "#546B7B" :italic t))))
      (font-lock-constant-face ((t (:foreground "#6D9CBE"))))
      (font-lock-doc-string-face ((t (:foreground "#A5C261"))))
      (font-lock-function-name-face ((t (:foreground "#FFC66D"))))
